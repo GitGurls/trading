@@ -1,4 +1,4 @@
-# Simplified Trading Bot — Binance USDT-M Futures Testnet
+
 
 
 ## Project Structure
