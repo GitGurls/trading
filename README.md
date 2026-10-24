@@ -3,21 +3,6 @@
 
 ## Project Structure
 
-```
-trading_bot/
-├── bot/
-│   ├── __init__.py
-│   ├── client.py           # Low-level REST API client (auth, signing, requests)
-│   ├── orders.py            # Order placement logic (validation -> API -> summary)
-│   ├── validators.py        # CLI input validation
-│   └── logging_config.py    # Centralized logging setup
-├── cli.py                   # CLI entry point (argparse)
-├── logs/
-│   └── trading_bot.log      # Auto-created; all requests/responses/errors logged here
-├── requirements.txt
-├── .env.example
-└── README.md
-```
 
 ## Setup
 
