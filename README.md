@@ -1,22 +1,6 @@
 
 
 
-## Project Structure
-
-
-## Setup
-
-### 1. Get Testnet API credentials
-1. Register at [https://testnet.binancefuture.com](https://testnet.binancefuture.com) (login with GitHub).
-2. Go to **API Key** section and generate a Testnet API key + secret.
-3. The testnet gives you fake USDT futures balance automatically — use it to test orders.
-
-### 2. Install dependencies
-```bash
-python -m venv venv
-source venv/bin/activate        # on Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
 
 ### 3. Configure credentials
 Copy `.env.example` to `.env` and fill in your keys, **or** export them directly:
