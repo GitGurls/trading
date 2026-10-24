@@ -40,12 +40,6 @@ pip install -r requirements.txt
 Copy `.env.example` to `.env` and fill in your keys, **or** export them directly:
 
 ```bash
-export BINANCE_API_KEY="your_testnet_api_key"
-export BINANCE_API_SECRET="your_testnet_api_secret"
-```
-
-(On Windows PowerShell: `$env:BINANCE_API_KEY="..."`)
-
 ## How to Run
 
 ### Place a MARKET order
