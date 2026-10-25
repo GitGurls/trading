@@ -2,10 +2,6 @@
 
 
 
-### 3. Configure credentials
-Copy `.env.example` to `.env` and fill in your keys, **or** export them directly:
-
-```bash
 ## How to Run
 
 ### Place a MARKET order
