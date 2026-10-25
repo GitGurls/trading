@@ -4,15 +4,6 @@
 
 ## How to Run
 
-### Place a MARKET order
-```bash
-python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
-```
-
-### Place a LIMIT order
-```bash
-python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 65000
-```
 
 ### Passing credentials inline (instead of env vars)
 ```bash
