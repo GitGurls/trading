@@ -2,17 +2,6 @@
 
 
 
-## How to Run
-
-
-
-### Example Output
-```
---- ORDER REQUEST SUMMARY ---
-Symbol   : BTCUSDT
-Side     : BUY
-Type     : MARKET
-Quantity : 0.01
 
 --- ORDER RESPONSE ---
 Order ID     : 3457891234
