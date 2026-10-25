@@ -5,11 +5,6 @@
 ## How to Run
 
 
-### Passing credentials inline (instead of env vars)
-```bash
-python cli.py --symbol ETHUSDT --side BUY --type MARKET --quantity 0.05 \
-    --api-key YOUR_KEY --api-secret YOUR_SECRET
-```
 
 ### Example Output
 ```
