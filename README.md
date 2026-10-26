@@ -3,13 +3,7 @@
 
 
 
---- RESULT ---
-SUCCESS: Order placed successfully.
-```
 
-On failure (e.g. insufficient testnet balance, bad symbol, network issue),
-the CLI prints a clear `FAILED: ...` message and the full error detail
-is written to `logs/trading_bot.log`.
 
 ## Logging
 
