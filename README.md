@@ -3,12 +3,6 @@
 
 
 
---- ORDER RESPONSE ---
-Order ID     : 3457891234
-Status       : FILLED
-Executed Qty : 0.01
-Avg Price    : 64821.50
-
 --- RESULT ---
 SUCCESS: Order placed successfully.
 ```
