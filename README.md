@@ -5,16 +5,6 @@
 
 
 
-## Logging
-
-Every run appends to `logs/trading_bot.log`:
-- Every outgoing API request (endpoint + params, signature excluded)
-- Every raw API response
-- Any validation errors, API errors (rejected orders), or network errors
-
-The log file rotates automatically at 2MB (keeps 3 backups) so it never
-grows unbounded. Console output stays concise (INFO level); the file
-captures full DEBUG-level detail for auditing.
 
 ## Design Notes / Assumptions
 
