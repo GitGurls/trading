@@ -6,16 +6,7 @@
 
 
 
-## Design Notes / Assumptions
 
-- **REST calls over `python-binance`**: implemented with `requests` +
-  manual HMAC-SHA256 signing directly against the documented Testnet
-  REST endpoints. This keeps the dependency footprint minimal and makes
-  the request/response/signing flow fully transparent for review.
-- **Layered structure**: `client.py` is the only module that touches the
-  network. `orders.py` handles business logic (validate → call → format).
-  `cli.py` is a thin argument-parsing layer. This separation makes each
-  piece independently testable and reusable (e.g. `OrderService` could be
   reused by a future web UI without touching the CLI code).
 - **Validation happens before any network call** (`validators.py`), so
   bad input (invalid symbol format, non-numeric quantity, missing price
