@@ -7,14 +7,7 @@
 
 
 
-  reused by a future web UI without touching the CLI code).
-- **Validation happens before any network call** (`validators.py`), so
-  bad input (invalid symbol format, non-numeric quantity, missing price
-  for LIMIT orders, invalid side/type) fails fast with a clear message
-  instead of wasting an API round-trip.
-- Default `timeInForce` for LIMIT orders is `GTC` (Good-Till-Cancelled).
-- `quantity`/`price` precision (lot size / tick size) is **not**
-  auto-rounded to each symbol's exchange filters — the user is expected
+  
   to pass values valid for the chosen symbol (e.g. BTCUSDT commonly
   accepts 0.001 quantity steps). This was a deliberate scope cut to keep
   the task within the ~60 minute estimate; `exchangeInfo` lookups would
